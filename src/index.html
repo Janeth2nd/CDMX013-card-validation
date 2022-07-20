@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Validación de Tarjeta de Crédito</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
+<head>
+  <meta charset="utf-8">
+  <title>Validación de Tarjeta de Crédito</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<body>
+
+ 
   <h1>Play Station.plus!</h1>
 
 
-  <h2>Renueva tu Membresía y disfruta de los juegos ilímitados para el mes de Agosto</h2>
-  
+  <h2>Renueva  tu  Membresía  y  disfruta  de  los  juegos  ilímitados  para  el  mes  de  Agosto</h2>
+
   <h3>Paga el día de hoy y disfruta dos meses de PSp por el mismo precio </h3>
 
-   <h4> <b>Escribe tu ID </h4>
- 
-    <body>
-
-
-<p>
-  <input id="text1" placeholder="">
-  <br>
-  <button onclick="fn1()" id="btn1">Inicia Sesión</button>
-  <p>
-
+  <div> <b>Escribe tu ID </b> </div> 
+  
+  <!--El usuario escribe su ID para ingresar -->
 
   
-     <!--mensaje de bienvenida mas el nombre del usuario -->
+     <p><input id="text1" placeholder="">  </p>
+    <br> </br>
+    <div class="btnId"> <button onclick="fn1()" id="btn1">Iniciar Sesión</button>
+     </div>
+ 
 
-     <!--<p>Selecciona tu tipo de tarjeta de crédito </p> -->
-     <!--VISA, MASTERCARD, AMERICAN Express-->
+    <!--El usuario selecciona su tipo de tarjeta de crédito-->
 
+<div class="typeCard">
+    <form name= "selectCard">
+      <br>
+      <label  for="typeofc">Selecciona tu tarjeta de crédito</label>
+  <br></br>
+      <select  name="ccard" id="CC">
+        <br>
+        <br>
+        <option>VISA</option>
+        <option>MasterCard</option>
+      </select>
+    </form>
+   </div>
 
+    <br></br>
+ <!-- Usuario ingresa los números de Tarjeta de crédito-->
 
-      <p> <b>
-        <font size="5"> Escribe los 16 números de tu tajerta de crédito.</font>
-      </b></p>
+   <div class="userDig"> <b>
+       Escribe los 16 números de tu tajerta de crédito. </b>
+   </div>
 
-      <form>
-        <label for="números"></label>
-          <input minlength="16" maxlength="16"  type="text" name="onlyNumbers" required="" pattern="[0-9]+">
-          <br>
-          <br>
-          <button>Enviar</button>
-      
-      </form>
-      
-      <img src="https://thumbs.gfycat.com/WeepyPhysicalIndigowingedparrot-max-1mb.gif" style="width: 150px"  text-align="center">
+    <br></br>
 
+ 
+    <div>
+      <input type="text" size="25" id="userNumContainer" />
+      <input type="submit" value= "Validate" id="submitBtn" />
+    </div>
+    <br /> 
 
-
-      <script src="app.js"></script>
+    <b><div  class="validationResult"   id="resultDiv"></div> </b>
+ 
     
-</body>r
+
+   <div>
+  <img src="https://thumbs.gfycat.com/WeepyPhysicalIndigowingedparrot-max-1mb.gif" style="width: 150px"
+    text-align="center">  </div>
+
+
+
+  <script src="index.js"></script>
+
+</body>
+
 </html>
