@@ -21,11 +21,11 @@ function creditLuhn(){
   let resultArray = undefined;
   let validCard = false;
 
-  if((!/\d{16}(~\W[a-zA-Z])*$/g.test(ccNumber)) || (ccNumber.length > 16)){
-     return false;
+  if((!/^\d{16}$/g.test(ccNumber))){
+     return validCard;
   }
 
-  if(ccNumber.length === 16){
+  //if(ccNumber.length === 16){
      for(let i = ccNumberSplit.length-1; i>=0; i--){   //Número negativo para comenzar de derecha a izquierda (últimos números)
                                                       // Para comenzar de derecha a izq: Se resta 1 a la longitud, sino se resta, nos dará un índice inexistente
                                                      // i>=0;continuación de ciclos con esto se llega al extremo izquierdo
@@ -39,7 +39,7 @@ function creditLuhn(){
         }
      }                                                //toString: convierte el objeto a string,Devuelve una cadena que representa al objeto.
                                                       //en js podemos convertir tipos de datos, ejemplo: un number a un string
-  }
+  //}
                                                       //joining makes an array to a string and I split them up again
                                                       //so that every number is a single digit and convert back to array
 
