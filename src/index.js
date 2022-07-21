@@ -1,16 +1,25 @@
 //Mensaje de Bienvenida al usuario fn1
 
 function fn1() {
-    var str= document.getElementById("text1").value;
+    let str= document.getElementById("text1").value;
     alert ("Bienvenid@ a Play Station Plus:\t\t" + str)
   } 
 
   
+
   let userNumEntry = document.getElementById("userNumContainer");
 
 function getUserEntry(){
    return userNumEntry.value;
 }
+
+
+
+/*function maskify(userNumContainer) {
+   return userNumContainer.slice(0, -4).replace(/./g, '#') + userNumContainer.slice(-4)
+   }¨*/
+
+   
 
 function creditLuhn(){
   let ccNumber = getUserEntry()
@@ -25,7 +34,7 @@ function creditLuhn(){
      return validCard;
   }
 
-  //if(ccNumber.length === 16){
+
      for(let i = ccNumberSplit.length-1; i>=0; i--){   //Número negativo para comenzar de derecha a izquierda (últimos números)
                                                       // Para comenzar de derecha a izq: Se resta 1 a la longitud, sino se resta, nos dará un índice inexistente
                                                      // i>=0;continuación de ciclos con esto se llega al extremo izquierdo
@@ -40,10 +49,10 @@ function creditLuhn(){
      }                                                //toString: convierte el objeto a string,Devuelve una cadena que representa al objeto.
                                                       //en js podemos convertir tipos de datos, ejemplo: un number a un string
   //}
-                                                      //joining makes an array to a string and I split them up again
-                                                      //so that every number is a single digit and convert back to array
-
-  doubleNums = doubleNums.join("").split("");    //El método join une todos los elementos de una matriz  en una cadena y devuelve esta cadena.
+                                                      //undiendolos se convierte de array a string y con split se vuelven a separar.
+                                                      //ahora cada numero está separado y vuelven a ser un array.
+ 
+ doubleNums = doubleNums.join("").split("");                                                 //El método join une todos los elementos de una matriz  en una cadena y devuelve esta cadena.
   resultArray = doubleNums.concat(singleNums);   /*El método concat no altera el array original, ni ninguno de los que fueron
                                                    ingresados como parámetros, sino que devuelve una copia superficial que contiene copias de los mismos
                                                    elementos de los arrays originales combinados. une uan variable con otra. (no suma) */
@@ -55,12 +64,14 @@ function creditLuhn(){
 
   if(sum % 10 === 0){   //Suma total entre 10.
      validCard = true;
+   
+
+
   }
-
-
   console.log(sum);  //Visualiza la suma total en la consola.
   return validCard;
   }
+  
 
   document.getElementById("submitBtn").addEventListener("click", function(){
      document.getElementById("resultDiv").innerHTML =  creditLuhn();

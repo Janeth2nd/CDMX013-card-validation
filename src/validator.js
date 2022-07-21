@@ -8,7 +8,8 @@ const validator = {
   let resultArray = undefined;
   let validCard = false;
 
-
+  
+};
 
   //if(ccNumber.length === 16){
      for(let i = ccNumberSplit.length-1; i>=0; i--){   //Número negativo para comenzar de derecha a izquierda (últimos números)
@@ -46,6 +47,9 @@ const validator = {
   console.log(sum);  //Visualiza la suma total en la consola.
   return validCard;
   }
-};
+  
 
 export default validator;
+
+
+
