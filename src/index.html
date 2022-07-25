@@ -26,17 +26,17 @@
  
   <h2>Renueva tu membresía y disfruta de los mejores juegos 2022.</h2>
    
-   <b> <div class="agost"> Mes de Agosto dedicado a la mujer, paga solo la mitad de precio. </div> <b>
+   <b> <div class="agost"> Mes de Agosto dedicado a la mujer, paga solo la mitad de precio. </div> </b>
    <br>
 
-  <!--<div> <b>Escribe tu ID </b> </div> -->
-
+  
   <!--El usuario escribe su ID para ingresar -->
 
 
-  <div><input id="text1" placeholder="Escribe tu ID"> </p> </div>
+  <div><input class="placeHold round" id="text1" placeholder="Escribe tu ID"> </div>
   <div>
-  <button  class="btn-ghost round" onclick="fn1()">  Iniciar Sesión </button> </div>
+    <br>
+  <button  class="btn-ghost round" id="INICIAR-SESION">  Iniciar Sesión </button> </div>
 
   <!--El usuario selecciona su tipo de tarjeta de crédito-->
 
@@ -44,32 +44,31 @@
     <form name="selectCard">
       <br>
       <i class="fa-solid fa-credit-card"></i>
-      <label  for="typeofc">Selecciona tu tarjeta de crédito</label> </div>   
+      <label  for="typeofc">Selecciona tu tarjeta de crédito</label> 
       <br>
-      <!--<span class="iconCard"></span> -->
-    <div>
-    <select class="visaMAS round" name="ccard" id="CC">   </div>
+     
+    <div> <select class="visaMAS round" name="ccard" id="CC"> 
+    <br>
+    <br>
+    <option>VISA</option>
+    <option>MasterCard</option>
+    </select>
+  </div>  
+    </form>   
+    </div>
 
-        <br>
-        <br>
-        <option>VISA</option>
-        <option>MasterCard</option>
-      </select>
-    </form>
-  </div>
+  <br>
 
-  <br/>
   <!-- Usuario ingresa los números de Tarjeta de crédito-->
 
   <div class="userDig"> <b>
       Escribe los 16 números de tu tajerta de crédito. </b>
   </div>
 
-  <br/>
-
+  <br>
 
   <div>
-    <input type="text" size="25" id="userNumContainer" />  </div>
+    <input type="text"  class="containerDigits round"   size="25" id="userNumContainer" />  </div>
     <br>
     <div> <input class="validCard round" type="submit" value="Validate" id="submitBtn" />
     </div>
@@ -79,8 +78,6 @@
   <b>
     <div class="validationResult" id="resultDiv"></div>
   </b>
-
-
 
   <div>
     <img src="https://thumbs.gfycat.com/WeepyPhysicalIndigowingedparrot-max-1mb.gif" style="width: 100px"

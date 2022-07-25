@@ -62,11 +62,13 @@
     font-size: 20px;
 
   }
+  
 
-
-    ::placeholder.round {
-      color: white;
-      
+  .placeHold.round {
+   
+      border-radius:18px;
+      border-color: transparent;
+     
     } 
     
     
@@ -80,27 +82,21 @@
     color:rgb(0, 0, 0);
     font-weight: 150;
     text-decoration: none;
-    background: linear-gradient(80deg, #cab4ee, #743881, rgb(176, 142, 209));
+    background: linear-gradient(80deg, #cab4ee, #8a5596, rgb(176, 142, 209));
+    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
     }
 
     .btn-ghost.round {
       border-radius:18px;
+      
   } 
 
     .btn-ghost:hover {
-    background:linear-gradient(100deg, #674175, #9566a0);
+    background:linear-gradient(100deg, #674175,  #b493bb);
     }
 
    
-/*.iconCard{
- background-image: url("card.svg");
-
- height: 52px;
- width: 52px;
-
-} */
-
-
 .typeCard{
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
@@ -108,6 +104,7 @@
 
 .userDig{
   font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
 }
 
 .valid {
@@ -150,7 +147,12 @@
     z-index:-3;
     }
 
+    .containerDigits.round{
+      border-radius:18px;
+      border-color: transparent;
+     
 
+    }
     
 
     
@@ -162,27 +164,26 @@
     color:rgb(0, 0, 0);
     font-weight: 200;
     text-decoration: none;
-    background: linear-gradient(80deg, #cab4ee, #743881, rgb(174, 142, 204));
+    background: linear-gradient(80deg, #cab4ee, #905b9c, rgb(174, 142, 204));
+    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
     }
     
 
     .validCard.round {
       border-radius:20px;
+      
+     
   } 
 
     .validCard:hover {
-      background:linear-gradient(90deg, #674175, #b493bb);
+      background:linear-gradient(90deg, #593268d7, #b493bb);
     }
 
-
-
-
-
-    
-
       .visaMAS {
-        text-align: justify;
-        position: relative;
+        justify-content:center;
+        text-align: center;
+        position: center;
         width: 9%;
         display: inline-block;
         border:0.4px solid rgb(20, 12, 20);
@@ -191,15 +192,18 @@
         font-weight: 150;
         text-decoration: none;
         background: linear-gradient(40deg, #e9f0f1, #82478f);
-        font-size: 70%;
+        font-size: 75%;
+        font-family: 'Roboto Mono', monospace;
+        
         }
     
         .visaMAS.round {
           border-radius:15px;
+      
       } 
     
         .visaMAS:hover {
-        background-color:rgb(168, 144, 168);
+        background:linear-gradient(90deg, #593268d7, #b493bb);
         }
 
    
