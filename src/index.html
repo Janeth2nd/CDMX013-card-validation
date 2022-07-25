@@ -9,38 +9,47 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/10c884f627.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 
-  <h1>Play Station.plus!</h1>
+  <div class="pstitle round">
+    <h1>Play Station.plus!</h1> 
 
+    
+   </div>
 
-  <h2>Renueva tu Membresía y disfruta de los juegos ilímitados para el mes de Agosto</h2>
+   <br>
+     
+ <b>  <div class="women">Women in games!  <i class="fa-solid fa-venus"> </i> </div> </b>
+ 
+  <h2>Renueva tu membresía y disfruta de los mejores juegos 2022.</h2>
+   
+   <b> <div class="agost"> Mes de Agosto dedicado a la mujer, paga solo la mitad de precio. </div> <b>
+   <br>
 
-  <h3>Paga el día de hoy y disfruta dos meses de PSp por el mismo precio </h3>
-
-  <div> <b>Escribe tu ID </b> </div>
+  <!--<div> <b>Escribe tu ID </b> </div> -->
 
   <!--El usuario escribe su ID para ingresar -->
 
 
-  <p><input id="text1" placeholder=""> </p>
-  <br/>
-  <div class="btnId"> <button onclick="fn1()" id="btn1">Iniciar Sesión</button>
-  </div>
-
+  <div><input id="text1" placeholder="Escribe tu ID"> </p> </div>
+  <div>
+  <button  class="btn-ghost round" onclick="fn1()">  Iniciar Sesión </button> </div>
 
   <!--El usuario selecciona su tipo de tarjeta de crédito-->
 
-  <div class="typeCard">
+  <div class="typeCard round">
     <form name="selectCard">
       <br>
-      <label for="typeofc">Selecciona tu tarjeta de crédito</label>
-      <br/>
+      <i class="fa-solid fa-credit-card"></i>
+      <label  for="typeofc">Selecciona tu tarjeta de crédito</label> </div>   
       <br>
       <!--<span class="iconCard"></span> -->
-      <select name="ccard" id="CC">
+    <div>
+    <select class="visaMAS round" name="ccard" id="CC">   </div>
+
         <br>
         <br>
         <option>VISA</option>
@@ -60,10 +69,12 @@
 
 
   <div>
-    <input type="text" size="25" id="userNumContainer" />
-    <input type="submit" value="Validate" id="submitBtn" />
-  </div>
-  <br />
+    <input type="text" size="25" id="userNumContainer" />  </div>
+    <br>
+    <div> <input class="validCard round" type="submit" value="Validate" id="submitBtn" />
+    </div>
+
+    <br>
 
   <b>
     <div class="validationResult" id="resultDiv"></div>
@@ -72,14 +83,14 @@
 
 
   <div>
-    <img src="https://thumbs.gfycat.com/WeepyPhysicalIndigowingedparrot-max-1mb.gif" style="width: 150px"
+    <img src="https://thumbs.gfycat.com/WeepyPhysicalIndigowingedparrot-max-1mb.gif" style="width: 100px"
       text-align="center">
   </div>
-
-
-
-  <script src="index.js"></script>
+    
+  <script src="index.js" type="module"></script>
+ 
 
 </body>
 
 </html>
+
