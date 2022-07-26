@@ -32,7 +32,7 @@ Esta página web es dirigida a personas con gusto por los videjuegos, pero espec
 
 Comentarios, sugerencias y críticas constructivas de mis compañeras y coaches.
 
-1.-Cambiar el estilo de letra.
+1.-Cambiar el estilo de letra. 
 2.-Modificar los colores de los botonoes y placeholder.
 3.-Agrandar la letra del selector de tipo de tarjeta.
 4.-Redondear el estilo de botonoes y placeholder.
