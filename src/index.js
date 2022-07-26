@@ -31,8 +31,9 @@ botonIniciar.addEventListener ("click",function (){
     let mensaje;
 
     if(!regex.test(userNumEntry)){
-      alert("¡Ingresa el número de tu tarjeta de cŕedito!");
-      document.getElementById("userNumContainer");
+      mensaje= "¡Ingresa el número de tu tarjeta de cŕedito!"
+    
+      
     }  else if (result===true) {
       mensaje= "Tu tarjeta es válida, ¡Disfruta de PSp!";
     

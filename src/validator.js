@@ -61,13 +61,17 @@ const validator = {
                                                                     //parámetros son valores que podemos usar dentro  una función.
        
        let maskNumber=""
+
      
-       if(creditCardNumber.length >4) {
+       if(!!creditCardNumber && creditCardNumber.length >4) {
+         
          maskNumber="#".repeat(creditCardNumber.length -4) + creditCardNumber.slice(-4)
          console.log(typeof maskNumber)
          return  maskNumber
-
+       
        }
+       return ""
+       
      
         }, 
 
