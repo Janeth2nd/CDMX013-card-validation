@@ -26,7 +26,7 @@ Esta página web es dirigida a personas con gusto por los videjuegos, pero espec
 
 ## 4. Primer prototipo en papel
 
-![Imagen final del proyecto](CDMX013-CARD-VALIDATION/img/1erprotopapel.jpg)
+![Imagen final del proyecto](https://github.com/Janeth2nd/CDMX013-card-validation/blob/codeReadme/img/1erprotopapel.jpg)
 
 ## 5. Feedback
 
