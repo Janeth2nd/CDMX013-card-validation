@@ -18,7 +18,7 @@ El proyecto inlcuye solo la parte esencial de una página web, que permite reali
 
 ## 2. Imagen final de proyecto.
 
-![Imagen final del proyecto](CDMX013-CARD-VALIDATION/img/imgfinalpsp.pgn)
+![Imagen final del proyecto](https://github.com/Janeth2nd/CDMX013-card-validation/blob/codeReadme/img/imgfinalpsp.png)
 
 ## 3. Investigación UX
 
