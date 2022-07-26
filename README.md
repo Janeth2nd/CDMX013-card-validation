@@ -41,4 +41,4 @@ Comentarios, sugerencias y críticas constructivas de mis compañeras y coaches.
 
 ## 6. Imagen de prototipo final
 
-![Imagen final del proyecto](CDMX013-CARD-VALIDATION/img/protofinal.png)
+![Imagen final del prototipo](https://github.com/Janeth2nd/CDMX013-card-validation/blob/codeReadme/img/protofinal.png)
