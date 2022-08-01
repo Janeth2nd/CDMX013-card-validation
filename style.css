@@ -1,0 +1,209 @@
+
+.pstitle {
+  position: relative;
+  display: inline-block;
+  border:0px solid rgb(163, 121, 163);
+  padding: 3px 5px;
+  color:white;
+  font-weight: 100;
+  text-decoration: none;
+  background: linear-gradient(90deg, #5f4370, transparent);
+  height: auto;
+  width: auto;
+  max-height: 120px;
+  max-width: 1550px;
+  text-justify: center;
+}
+
+  .pstitle.round {
+    border-radius:1px;
+} 
+
+  .pstitle:hover {
+  background-color:rgba(230, 182, 230, 0.123);
+  }
+
+  
+  
+ h1 {
+    color:white;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Iceberg', cursive;
+    position:center;
+    text-align:center;
+    font-size: 60px;
+  }
+
+  .women{
+    color:rgb(12, 12, 14);
+    font-family:'Roboto Mono', monospace;
+    position: center;
+    text-align: center;
+    font-size: 25px;
+
+  }
+
+
+
+  h2 { 
+    color:rgb(12, 12, 14);
+    font-family:'Roboto Mono', monospace;
+    position: center;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .agost {
+    color:rgb(12, 12, 14);
+    font-family:'Roboto Mono', monospace;
+    position: center;
+    text-align: center;
+    font-size: 20px;
+
+  }
+  
+
+  .placeHold.round {
+   
+      border-radius:18px;
+      border-color: transparent;
+     
+    } 
+    
+    
+
+
+  .btn-ghost {
+    position: relative;
+    display: inline-block;
+    border:0.1px solid rgb(14, 14, 14);
+    padding: 5px 12px;
+    color:rgb(0, 0, 0);
+    font-weight: 150;
+    text-decoration: none;
+    background: linear-gradient(80deg, #cab4ee, #8a5596, rgb(176, 142, 209));
+    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
+    }
+
+    .btn-ghost.round {
+      border-radius:18px;
+      
+  } 
+
+    .btn-ghost:hover {
+    background:linear-gradient(100deg, #674175,  #b493bb);
+    }
+
+   
+.typeCard{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+.userDig{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+.valid {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+  .validationResult {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+
+  body{
+    margin:0;
+    min-height: 50vh;
+    background-image: url("ps4.jpg");
+    flex-direction: column;
+    background-size: cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  }
+
+  
+  body:before {
+    content:"";
+   
+    position:absolute;
+    top:0;
+    left:0;
+    width: 107%;
+    min-height: 104vh;
+    background: linear-gradient(60deg, #e9f0f1, #7a2d8b);
+    opacity: 0.6;
+    z-index:-3;
+    }
+
+    .containerDigits.round{
+      border-radius:18px;
+      border-color: transparent;
+     
+
+    }
+    
+
+    
+  .validCard {
+    position: relative;
+    display: inline-block;
+    border:0.5px solid rgb(17, 16, 17);
+    padding: 6px 11px;
+    color:rgb(0, 0, 0);
+    font-weight: 200;
+    text-decoration: none;
+    background: linear-gradient(80deg, #cab4ee, #905b9c, rgb(174, 142, 204));
+    font-size: 85%;
+    font-family: 'Roboto Mono', monospace;
+    }
+    
+
+    .validCard.round {
+      border-radius:20px;
+      
+     
+  } 
+
+    .validCard:hover {
+      background:linear-gradient(90deg, #593268d7, #b493bb);
+    }
+
+      .visaMAS {
+        justify-content:center;
+        text-align: center;
+        position: center;
+        width: 9%;
+        display: inline-block;
+        border:0.4px solid rgb(20, 12, 20);
+        padding: 2px 5px;
+        color:rgb(0, 0, 0);
+        font-weight: 150;
+        text-decoration: none;
+        background: linear-gradient(40deg, #e9f0f1, #82478f);
+        font-size: 75%;
+        font-family: 'Roboto Mono', monospace;
+        
+        }
+    
+        .visaMAS.round {
+          border-radius:15px;
+      
+      } 
+    
+        .visaMAS:hover {
+        background:linear-gradient(90deg, #593268d7, #b493bb);
+        }
+
+   
